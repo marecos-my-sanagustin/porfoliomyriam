@@ -1,0 +1,83 @@
+/* Menu o barra de navegacion en cajita */
+.menu {
+display: flex; /* activa flexbox: los hijos pasan a una fila */ 
+justify-content: center; /* centra los items en la fila */
+ align-items: center; /* centra los items de arriba a abajo */
+ gap: 30px; /* 30px de espacio entre los items */ 
+background-color: #efe3d8; /* color de fondo del menú */ 
+padding: 10px 20px; /* espacio interno: arriba/abajo y a los lados */ 
+border-bottom: 2px solid #82574F; /* línea marrón debajo del menú */
+}
+
+
+
+
+/* Aplica regla css a toda la página */
+body {
+    background-color: #f5ebe0; /* color de fondo */
+    color: #3b2a26; /* color de texto */
+    font-family: Arial, sans-serif; /* familia tipografica */
+}
+
+
+/* aplica reglas css a todos los Títulos con h1 */
+h1 {
+    color: #82574F; 
+    text-align: center; /* alineacion de texto */
+}
+
+h2 {
+    color: #a3685d;
+    border-bottom: 1px solid #82574F;  /* borde inferior  */
+}
+
+/* Texto de Párrafo */
+p {
+    font-size: 18px; /*tamaño de fuente*/
+    line-height: 1.5;    /*interlineado*/
+}
+
+/* link */
+a {
+    color: #82574F; /*color de texto de hipervinculo*/
+    text-decoration: none;   /* los links por defecto se ven en color azul y subrayado, esto  elimina esa carateristica    */
+}
+
+/* Imágenes */
+img {
+    width: 300px;
+    height: auto; /* automatico para que no se deforme  */
+}
+
+/* Cada sección con su propio título */
+.titulo-peliculas {
+    color: #2e6f95;
+    border-bottom: 3px solid #2e6f95;
+}
+ 
+.titulo-helados {
+    color: #c0392b;
+    border-bottom: 3px solid #c0392b;
+}
+ 
+.titulo-musica {
+    color: #956dce;
+    border-bottom: 3px solid #6a4c93;
+}
+
+
+#titulo-principal {
+    background-color: rgb(48, 44, 44);
+    color: rgb(231, 232, 233);
+    font-size: 30px;
+    letter-spacing: 2px;  /* espacio entre caracteres */
+    padding-top: 20px; /* espacio superior entre el texto y el borde del contenedor */
+    padding-bottom: 20px; /* espacio inferior entre el texto y el borde del contenedor */
+}
+
+/* Pie de página */
+footer {
+    text-align: center; /*alineacion de texto */
+    font-size: 14px;
+    border-top:  2px solid #82574F;  /* borde superior  */
+}
